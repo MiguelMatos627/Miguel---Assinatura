@@ -9,3 +9,25 @@ body{
     
 
 }
+.pricipal{
+    background-image: url("Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 505;
+}
+.container__botao{
+    background-color: #060692f3;
+    border-radius: 5px;
+    padding: 1em;
+    color:  #ffffff;
+    display: block;
+}
+.container__botao2{
+    background-color: transparent;
+    border: 2px solid white;
+}
